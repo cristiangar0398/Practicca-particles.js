@@ -1,0 +1,95 @@
+body {
+
+    font-family:'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0   ;
+
+     #particles-js{
+    width: 100% ;
+    z-index: -1; 
+    background: #232526; 
+    background: -webkit-linear-gradient(to right, hsla(210, 3%, 26%, 0.712), rgba(35, 37, 38, 0.712)), url(../imagenes/mm-macbook.jpg); 
+    background: linear-gradient(to right, rgba(65, 67, 69, 0.705),  rgba(35, 37, 38, 0.712)),url(../imagenes/mm-macbook.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
+
+
+    .container{
+    max-width: 600px;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 50px;
+
+    .servicios {
+
+        .encabezado{
+
+            .typed{
+                color: $color-botones;
+            }
+
+        }
+    }
+
+    .title{
+        display: flex;
+    }
+
+    h2{
+        color : $color-blanco;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    #web{
+        color: $color-hover;
+    }
+    
+    img{
+        width: 200px;
+        height: auto;
+        display: block;
+        margin: auto;
+        padding-top: 20px 0px;
+    }
+
+    p{
+        color: $color-blanco;
+        text-align: justify;
+    }
+
+    button {
+        width: 140px;
+        height: 40px;
+        background: #ED213A;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to top, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to top, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        border-radius: 17px;
+        border: none;
+        display: block;
+        margin: auto;
+        
+
+        a{
+            color: $color-blanco;
+            text-decoration: none;
+            font-size: 16px;
+            outline: none;
+
+            :hover{
+                color : $color-blanco;
+            }
+
+            :focus {
+                outline: none;
+            }
+        }
+    }
+
+   }
+
+
+}

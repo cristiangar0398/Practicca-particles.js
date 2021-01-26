@@ -1,0 +1,179 @@
+@charset "UTF-8";
+header .menu_con {
+  background-color: aqua;
+}
+header nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90px;
+}
+header img {
+  margin-left: 50px;
+  margin-top: 15px;
+  width: 50px;
+  height: 50px;
+}
+header .imagen {
+  margin-top: 5px;
+  margin-left: 50px;
+  display: flex;
+}
+header .titulo {
+  display: block;
+  margin-left: 20px;
+}
+header h1 {
+  color: #FFFFFF;
+  font-size: 21px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+header p {
+  color: #FFFFFF;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 5px;
+}
+header ul {
+  padding-top: 15px;
+  display: flex;
+}
+header li {
+  list-style: none;
+}
+header a {
+  font-size: 17px;
+  padding: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+header a:hover {
+  color: #ac0548;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body #particles-js {
+  width: 100%;
+  z-index: -1;
+  background: #232526;
+  background: -webkit-linear-gradient(to right, rgba(64, 66, 68, 0.712), rgba(35, 37, 38, 0.712)), url(../imagenes/mm-macbook.jpg);
+  background: linear-gradient(to right, rgba(65, 67, 69, 0.705), rgba(35, 37, 38, 0.712)), url(../imagenes/mm-macbook.jpg);
+  background-size: cover;
+  background-position: center;
+}
+body .container {
+  max-width: 600px;
+  position: absolute;
+  margin-left: 380px;
+  margin-top: 50px;
+}
+body .container .servicios .encabezado .typed {
+  color: #dc0033;
+}
+body .container .title {
+  display: flex;
+}
+body .container h2 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 22px;
+}
+body .container #web {
+  color: #ac0548;
+}
+body .container img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding-top: 20px 0px;
+}
+body .container p {
+  color: #FFFFFF;
+  text-align: justify;
+}
+body .container button {
+  width: 140px;
+  height: 40px;
+  background: #ED213A;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #93291E, #ED213A);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #93291E, #ED213A);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 17px;
+  border: none;
+  display: block;
+  margin: auto;
+}
+body .container button a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  outline: none;
+}
+body .container button a :hover {
+  color: #FFFFFF;
+}
+body .container button a :focus {
+  outline: none;
+}
+
+/* ---------------- */
+/* diseño adaptable */
+/* ---------------- */
+@media screen and (max-width: 900px) {
+  body header ul {
+    display: none;
+  }
+  body .container {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #particles-js {
+    height: 700px;
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 650px) {
+  body .container {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body header nav {
+    display: flex;
+  }
+  body header img {
+    margin-left: 0;
+  }
+  body #particles-js {
+    height: 715px;
+    padding-bottom: 100px;
+  }
+  body .container {
+    width: 370px;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+  body .container img {
+    width: 180px;
+    height: 180px;
+  }
+  body .container .title {
+    margin-left: 70px;
+  }
+  body .container p {
+    width: 340px;
+    margin-left: 15px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

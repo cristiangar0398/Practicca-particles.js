@@ -1,0 +1,80 @@
+/* ---------------- */
+/* diseño adaptable */
+/* ---------------- */
+
+@media screen and (max-width:900px) {
+    body {
+        header{
+            ul{
+                display: none;
+            }
+        }
+        .container {
+          position: absolute;
+          margin-left: 80px;
+          margin-top: 50px;
+        }
+
+
+    }
+}
+
+@media screen and (max-width:768px){
+    #particles-js{
+        height: 700px;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:650px){
+    body  {
+        .container{
+            margin-left: 20px;
+        }
+  }
+}
+
+
+@media screen and (max-width:600px) {
+
+    body {
+
+        header {
+
+            nav {
+                display: flex;
+            }
+
+            img {
+                margin-left: 0;
+            }
+        }
+        
+        #particles-js{
+            height: 715px;
+            padding-bottom: 100px;
+        }
+
+        .container {
+
+            width: 370px;
+            margin-top: 40px;
+            margin-left: 0;
+
+            img {
+                width: 180px;
+                height: 180px;
+            }
+
+            .title {
+                margin-left: 70px;
+            }
+
+            p {
+                width: 340px;
+                margin-left: 15px;
+            }
+        }
+    }
+
+}
